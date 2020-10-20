@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "@babel/polyfill";
-import { RecoilRoot, useRecoilState, useRecoilValue } from 'recoil';
+import { useRecoilState, useRecoilValue } from 'recoil';
 import { squareStates, currentPlayerState, gameEndSelector } from '../Store/Atoms';
 
 
